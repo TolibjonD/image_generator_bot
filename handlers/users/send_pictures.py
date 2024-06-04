@@ -22,7 +22,7 @@ async def send_art_pictures(call: types.CallbackQuery):
         await call.message.answer_photo(photo=data['image'], caption=caption, reply_markup=back_btn)
         await call.answer(cache_time=60)
     except:
-        await call.message.answer("Uzur nimadur xato ketdi !\n\nPastdan bo'limni tanlang !", reply_markup=inline_markup)
+        await call.message.answer("Bu kategoriya bo'yicha rasm topilmadi ! Yana tanlab ko'ring topishga harakat qilaman yoki \n\nPastdan bo'limni tanlang !", reply_markup=inline_markup)
         await call.answer(cache_time=60)
 @dp.callback_query_handler(category_callback.filter(item_name="vehicle"))
 async def send_art_pictures(call: types.CallbackQuery):
@@ -35,7 +35,7 @@ async def send_art_pictures(call: types.CallbackQuery):
         await call.message.answer_photo(photo=data['image'], caption=caption, reply_markup=back_btn)
         await call.answer(cache_time=60)
     except:
-        await call.message.answer("Uzur nimadur xato ketdi !\n\nPastdan bo'limni tanlang !", reply_markup=inline_markup)
+        await call.message.answer("Bu kategoriya bo'yicha rasm topilmadi ! Yana tanlab ko'ring topishga harakat qilaman yoki \n\nPastdan bo'limni tanlang !", reply_markup=inline_markup)
         await call.answer(cache_time=60)
 @dp.callback_query_handler(category_callback.filter(item_name="travel"))
 async def send_art_pictures(call: types.CallbackQuery):
@@ -48,7 +48,7 @@ async def send_art_pictures(call: types.CallbackQuery):
         await call.message.answer_photo(photo=data['image'], caption=caption, reply_markup=back_btn)
         await call.answer(cache_time=60)
     except:
-        await call.message.answer("Uzur nimadur xato ketdi !\n\nPastdan bo'limni tanlang !", reply_markup=inline_markup)
+        await call.message.answer("Bu kategoriya bo'yicha rasm topilmadi ! Yana tanlab ko'ring topishga harakat qilaman yoki \n\nPastdan bo'limni tanlang !", reply_markup=inline_markup)
         await call.answer(cache_time=60)
 @dp.callback_query_handler(category_callback.filter(item_name="work"))
 async def send_art_pictures(call: types.CallbackQuery):
@@ -61,7 +61,7 @@ async def send_art_pictures(call: types.CallbackQuery):
         await call.message.answer_photo(photo=data['image'], caption=caption, reply_markup=back_btn)
         await call.answer(cache_time=60)
     except:
-        await call.message.answer("Uzur nimadur xato ketdi !\n\nPastdan bo'limni tanlang !", reply_markup=inline_markup)
+        await call.message.answer("Bu kategoriya bo'yicha rasm topilmadi ! Yana tanlab ko'ring topishga harakat qilaman yoki \n\nPastdan bo'limni tanlang !", reply_markup=inline_markup)
         await call.answer(cache_time=60)
 @dp.callback_query_handler(category_callback.filter(item_name="current_events"))
 async def send_art_pictures(call: types.CallbackQuery):
@@ -74,7 +74,7 @@ async def send_art_pictures(call: types.CallbackQuery):
         await call.message.answer_photo(photo=data['image'], caption=caption, reply_markup=back_btn)
         await call.answer(cache_time=60)
     except:
-        await call.message.answer("Uzur nimadur xato ketdi !\n\nPastdan bo'limni tanlang !", reply_markup=inline_markup)
+        await call.message.answer("Bu kategoriya bo'yicha rasm topilmadi ! Yana tanlab ko'ring topishga harakat qilaman yoki \n\nPastdan bo'limni tanlang !", reply_markup=inline_markup)
         await call.answer(cache_time=60)
 @dp.callback_query_handler(category_callback.filter(item_name="nature"))
 async def send_art_pictures(call: types.CallbackQuery):
@@ -87,7 +87,7 @@ async def send_art_pictures(call: types.CallbackQuery):
         await call.message.answer_photo(photo=data['image'], caption=caption, reply_markup=back_btn)
         await call.answer(cache_time=60)
     except:
-        await call.message.answer("Uzur nimadur xato ketdi !\n\nPastdan bo'limni tanlang !", reply_markup=inline_markup)
+        await call.message.answer("Bu kategoriya bo'yicha rasm topilmadi ! Yana tanlab ko'ring topishga harakat qilaman yoki \n\nPastdan bo'limni tanlang !", reply_markup=inline_markup)
         await call.answer(cache_time=60)
 
 @dp.callback_query_handler(text="cancel")
